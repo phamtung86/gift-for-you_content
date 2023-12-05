@@ -25,7 +25,6 @@ function countTime() {
     document.getElementById("phut").textContent = m + " Phút";
     document.getElementById("giay").innerText = s;
     document.getElementById("giay").textContent = s + " Giây";
-    // console.log(dateLove)
     setTimeout(countTime,1000);
 }
 countTime();
