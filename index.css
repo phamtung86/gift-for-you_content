@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+.home__nav{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#F2ACC6; 
+    position: relative;
+}
+.nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav--title{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Kanit;
+    font-weight: 900;
+}
+.nav--title--click{
+    text-decoration: none;
+}
+.nav--title--click:hover{  
+    cursor: pointer;
+    color: #fff;
+}
+
+.introduce{
+    height: 30rem;
+    width: 100%;
+    font-size: 25px;
+    font-family: Playfair Display;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.close--click{
+    padding: 5px 5px;
+
+}
+.introduce:target{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
+.confession{
+    height: 30rem;
+    width: 100%;
+    font-family: Work Sans;
+    font-size: 20px;
+    line-height: 2;
+    display: none;
+    text-align: center;
+}
+.confession:target{
+    display: block;
+}
+.time{
+    height: 40rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border-radius: 10px;
+    
+}
+.time:target{
+    height: 40rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.float__title{  
+    width: 30rem;
+    background-color:#F26398 ;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+}
+.text--title{
+    font-size: 40px;
+    font-family:Ephesis;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.time--count{
+    height: 20rem;
+    width: 70%;
+    margin: auto;
+    background-color:#F288AF;
+}
+.time--title{
+    height: 3rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-family: Playfair Display;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time--image--infor{
+    height:17rem;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.image--user{
+    height: 16rem;
+    width: 25%;
+    border-radius: 50%;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.time--love{
+    text-align: center;
+}
+.times{
+    margin: 5px 5px;
+    font-size: 35px;
+    font-family: Big Shoulders Stencil Display;
+}
