@@ -98,10 +98,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* background-image: url(anh1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 1rem; */
 
 }
 .float__title{  
@@ -178,6 +174,16 @@
     .image--user{
         display: none;
     }
+    .confession{
+        height: auto;
+        width: 100%;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2;
+        display: none;
+        text-align: center;
+    }
 }
 @media screen and (min-width:320px) and (max-width: 480px) {
     .home__nav{
@@ -195,6 +201,16 @@
     }
     .image--user{
         display: none;
+    }
+    .confession{
+        height: auto;
+        width: 100%;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2;
+        display: none;
+        text-align: center;
     }
 }
 @media screen and (min-width:481px) and (max-width: 600px) {
