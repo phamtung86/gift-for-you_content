@@ -150,3 +150,84 @@
     font-size: 35px;
     font-family: Big Shoulders Stencil Display;
 }
+@media screen and (max-width:320px) {
+    .home__nav{
+        height: 6rem;
+    }
+    .nav{
+        padding: 0;
+    }
+    .float__title{
+        width: 100%;
+        height: auto;
+    }
+    .time--count{
+        width: 100%;
+    }
+    .image--user{
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .home__nav{
+        height: 6rem;
+    }
+    .nav{
+        padding: 0;
+    }
+    .float__title{
+        width: 100%;
+        height: auto;
+    }
+    .time--count{
+        width: 100%;
+    }
+    .image--user{
+        display: none;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 600px) {
+    .home__nav{
+        height: 6rem;
+    }
+    .nav{
+        padding: 0;
+    }
+    .float__title{
+        width: 100%;
+        height: auto;
+    }
+    .time--count{
+        width: 100%;
+    }
+}
+@media screen and (min-width:600px) and (max-width: 800px) {
+    .home__nav{
+        height: 6rem;
+    }
+    .nav{
+        padding: 0;
+    }
+    .float__title{
+        width: 100%;
+        height: auto;
+    }
+    .time--count{
+        width: 100%;
+    }
+}
+@media screen and (min-width:800px) and (max-width: 1024px) {
+    .home__nav{
+        height: 6rem;
+    }
+    .nav{
+        padding: 0;
+    }
+    .float__title{
+        width: 100%;
+        height: auto;
+    }
+    .time--count{
+        width: 100%;
+    }
+}
